@@ -1,0 +1,171 @@
+/*Estilos gerais*/
+
+* {
+  color: #25282e;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+a,
+i {
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.secondary-color {
+  color: #555;
+}
+
+.center-image {
+  background-size: cover;
+  background-position: center;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #25282e;
+  color: #fff;
+  padding: 0.7rem 1.8rem;
+  border-radius: 0;
+  font-size: 1.2rem;
+}
+
+.btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/*HEADER*/
+
+#header {
+  text-align: center;
+  padding: 2rem;
+  border-bottom: 1px solid #ccc;
+}
+
+#header p {
+  margin-bottom: 0;
+}
+
+#logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  width: 4rem;
+  margin-right: 1.5rem;
+}
+
+/*NAVBAR*/
+
+#navbar {
+  padding: 1rem;
+  margin: 1rem auto;
+}
+
+#navbar a {
+  width: 8rem;
+  color: #444;
+}
+
+#navbar a:hover {
+  color: #c1b696;
+}
+
+/*MAIN BANNER*/
+
+.main-image {
+  height: 40rem;
+  background-image: url(../img/g_1.jpg);
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.main-image-info {
+  background: #fff;
+  position: absolute;
+  padding: 2.5rem;
+  left: 2.5rem;
+  bottom: 2.5rem;
+}
+
+/*GALLERY*/
+
+#img2 {
+  background-image: url("../img/g_2.jpg");
+}
+
+#img3 {
+  background-image: url("../img/g_3.jpg");
+}
+
+#img4 {
+  background-image: url("../img/g_4.jpg");
+}
+
+#img5 {
+  background-image: url("../img/g_5.jpg");
+}
+
+#img6 {
+  background-image: url("../img/g_6.jpg");
+}
+
+#gallery-container h1 {
+  text-align: center;
+}
+
+#gallery-container h1,
+#gallery-container .col-md-6,
+#gallery-container .col-xs-12 {
+  margin-bottom: 5rem;
+}
+
+.small-image-container {
+  height: 25rem;
+  margin-bottom: 2rem;
+}
+
+/*FOOTER*/
+
+footer {
+    border-top: 1px solid #ccc;
+    height: 25rem;
+    padding: 3rem;
+}
+
+footer i {
+    font-size: 2rem;
+}
+
+#social-icons-container {
+    padding: 2.5rem;
+}
+
+#social-icons-container div {
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    margin: 2rem;
+}
+
+.bi-facebook:hover {
+    color: darkblue;
+}
+
+.bi-instagram:hover {
+    color: purple;
+}
+
+.bi-twitter:hover {
+    color: #00a2f5;
+}
